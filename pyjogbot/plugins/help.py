@@ -3,7 +3,8 @@ import re
 from slackbot.bot import respond_to
 
 help_dict = {
-    "ebook": "PacktPub 에서 매일 무료로 배포하는 EBook 을 확인"
+    "ebook": "PacktPub 에서 매일 무료로 배포하는 EBook 을 확인",
+    "육회": "다음 육회먹는 파이조그(10n+6회) 확인"
 }
 
 
