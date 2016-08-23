@@ -9,6 +9,7 @@ help_dict = {
 
 @respond_to('help', re.IGNORECASE)
 def help(message):
-    msg = "[ PyJog EVE Bot 도움말 ]"
+    msg = "[ PyJog EVE Bot 명령어 도움말 ]\n"
     for k, v in help_dict.items():
-        msg += ""
+        msg += "%s : %s\n" % (k, v)
+    message.send(msg)
