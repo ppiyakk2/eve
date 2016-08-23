@@ -18,6 +18,7 @@ def calc_next_rawbeef():
 @respond_to('육회', re.IGNORECASE)
 def next_rawbeef(message):
     ret = calc_next_rawbeef()
-    message.send("다음 육회조그(%d회)는 별다른 일이 없다면 %s년 %s월 %s일 입니다(D-%d)." \
-                 % (ret[1], ret[0].year, ret[0].month, ret[0].day, (ret[0] - datetime.date.today()).days))
-
+    message.send("다음 육회조그(%d회)는 별다른 일이 없다면 "
+                 "%s년 %s월 %s일 입니다(D-%d)."
+                 % (ret[1], ret[0].year, ret[0].month, ret[0].day,
+                    (ret[0] - datetime.date.today()).days))
