@@ -11,7 +11,9 @@ url = "https://www.packtpub.com/packt/offers/free-learning"
 
 def get_today_ebook_title():
     headers = {
-        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 '
+                      '(KHTML, like Gecko) '
+                      'Chrome/52.0.2743.116 Safari/537.36'}
     r = requests.get(url=url, headers=headers)
     if r.status_code != 200:
         return 'error'
