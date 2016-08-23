@@ -28,5 +28,9 @@ python bot.py
 EVE는 [https://github.com/lins05/slackbot](https://github.com/lins05/slackbot) 를 이용해서 만들었습니다.
 lins05/slackbot 에서 설명하는 개발 방법을 참고해서 기능을 추가해주시면 됩니다.
 새로운 기능을 추가하셨다면, pull request 를 보내주세요!!
-
-새로운 기능은 언제나 환영이야 ~ 
+ 
+### PEP8 검사
+코드 컨벤션을 유지하기 위해, pep8 을 준수합니다. commit 전, 아래 명령어로 코드 검사를 진행해주세요.
+```
+make flake
+```
