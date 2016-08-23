@@ -1,8 +1,9 @@
-from slackbot.bot import respond_to
 import re
 
+from slackbot.bot import respond_to
+
 help_dict = {
-    "ebook": "PacktPub 에서 매일 무료로 배포하는 Ebook 을 확인"
+    "ebook": "PacktPub 에서 매일 무료로 배포하는 EBook 을 확인"
 }
 
 
