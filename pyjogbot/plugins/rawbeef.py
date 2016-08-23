@@ -15,7 +15,7 @@ def calc_next_rawbeef():
     return next_date, next_count
 
 
-@respond_to('육회', re.IGNORECASE)
+@respond_to('^육회$', re.IGNORECASE)
 def next_rawbeef(message):
     ret = calc_next_rawbeef()
     message.send("다음 육회조그(%d회)는 별다른 일이 없다면 "
