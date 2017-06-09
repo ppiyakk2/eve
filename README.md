@@ -2,7 +2,7 @@
 'EVE' 는 PyJog Slack 에 서식하는 로봇입니다.
 'EVE' 라는 이름은 영화 WELL-E 에 나오는 캐릭터에서 가져왔습니다.
  
-PyJog 에 대해서 알고 싶으시다면, [여기](https://www.facebook.com/pyjog) 에서 확인해주세요.
+PyJog 에 대해서 알고 싶으시다면, [여기](https://www.facebook.com/pyjog) 에서 확인해주세요. !!!
  
  
 ## 개발 환경
