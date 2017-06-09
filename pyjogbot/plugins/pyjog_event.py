@@ -107,7 +107,7 @@ def pyjog_event_ask(message):
     if event is None or event['pyjog_event_day'] < datetime.now():
         last_event_time = (event['pyjog_event_day'].strftime(DATETIME_FORMAT))
         comment = ("아직 다음 파이조그 이벤트가 만들어지지 않았어요.\n"
-                   "마지막 파이조그 이벤트는 {name}{last_event_time} 이었습니다."
+                   "마지막 파이조그 이벤트는 {name} {last_event_time} 이었습니다."
                    .format(name=event['name'],
                            last_event_time=last_event_time))
         message.send(comment)
