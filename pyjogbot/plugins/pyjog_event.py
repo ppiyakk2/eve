@@ -99,7 +99,7 @@ def pyjog_event_notify():
     slack_client.send_message(channel_id, message, attachments)
 
 
-@respond_to('^파이조그$', re.IGNORECASE)
+@respond_to('^파이조그$|^pyjog$', re.IGNORECASE)
 def pyjog_event_ask(message):
 
     event = get_recent_pyjog_event()
