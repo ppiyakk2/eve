@@ -7,7 +7,7 @@ from pyjogbot import bot
 help_dict = {
     "ebook": "PacktPub 에서 매일 무료로 배포하는 EBook 을 확인",
     "육회": "다음 육회먹는 파이조그(10n+6회) 확인",
-    "파이조그": "다음 파이조그 일정을 확인"
+    "파이조그 or pyjog": "다음 파이조그 일정을 확인"
 }
 
 
